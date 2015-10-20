@@ -5,5 +5,5 @@ pwd
 whoami
 which apt
 which apt-get
+which docker
 
-apt-get install -y openssh-server
