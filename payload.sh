@@ -7,3 +7,4 @@ which apt
 which apt-get
 which docker
 
+docker version
