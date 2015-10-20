@@ -4,6 +4,6 @@ ls
 pwd
 whoami
 
-curl -sSL https://get.docker.com | sh
+ls /var/run/docker.sock
 
-docker version
+env
