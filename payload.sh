@@ -3,8 +3,5 @@
 ls
 pwd
 whoami
-which apt
-which apt-get
-which docker
 
-docker version
+curl -sSL https://get.docker.com | sh
